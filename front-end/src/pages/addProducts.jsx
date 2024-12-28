@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import Toast from "../components/Toast/Toast";
 import axios from "axios";
 
+
 const AddProduct = () => {
   const navigate = useNavigate();
   const [loading, setLoading] = useState(false);
